@@ -1,0 +1,394 @@
+// ANIMATIONS
+  // >>> overwrites:  /_sass/bootstrap/mixins/_vendor-prefixes.scss
+@mixin animate($name, $duration, $delay, $timing-function, $iteration-count, $direction) {
+  -webkit-animation-name: $name;
+     -moz-animation-name: $name;
+       -o-animation-name: $name;
+          animation-name: $name;
+
+	-webkit-animation-duration: $duration;
+	   -moz-animation-duration: $duration;
+	     -o-animation-duration: $duration;
+		      animation-duration: $duration;
+
+  -webkit-animation-timing-function: $timing-function;
+	   -moz-animation-timing-function: $timing-function;
+	     -o-animation-timing-function: $timing-function;
+		      animation-timing-function: $timing-function;
+
+    -webkit-animation-delay: $delay;
+  	   -moz-animation-delay: $delay;
+  	     -o-animation-delay: $delay;
+  	        animation-delay: $delay;
+
+	-webkit-animation-iteration-count: $iteration-count;
+	   -moz-animation-iteration-count: $iteration-count;
+	     -o-animation-iteration-count: $iteration-count;
+	        animation-iteration-count: $iteration-count;
+
+	-webkit-animation-direction: $direction;
+	   -moz-animation-direction: $direction;
+	     -o-animation-direction: $direction;
+		      animation-direction: $direction;
+}
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+
+
+
+
+// CODEBLOCK DISPLAY
+  // >>> Bounce fa-long-arrow-alt-left
+@include keyframes(bounce-x-left) {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(10px, 0);
+  }
+  60% {
+    @include translate(5px, 0);
+  }
+}
+@mixin bounce-x-left {
+  @include animate(bounce-x-left, 2s, 0s, ease-in, infinite, normal);
+}
+  // >>> Bounce fa-long-arrow-alt-right
+@include keyframes(bounce-x-right) {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(-10px, 0);
+  }
+  60% {
+    @include translate(-5px, 0);
+  }
+}
+@mixin bounce-x-right {
+  @include animate(bounce-x-right, 2s, 0s, ease-in, infinite, normal);
+}
+  // >>> Bounce fa-long-arrow-alt-up
+@include keyframes(bounce-y-up) {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(0, 10px);
+  }
+  60% {
+    @include translate(0, 5px);
+  }
+}
+@mixin bounce-y-up {
+  @include animate(bounce-y-up, 2s, 0s, ease-in, infinite, normal);
+}
+  // >>> Bounce fa-long-arrow-alt-down
+@include keyframes(bounce-y-down) {
+  0%, 20%, 50%, 80%, 100% {
+    @include translate(0, 0);
+  }
+  40% {
+    @include translate(0, -10px);
+  }
+  60% {
+    @include translate(0, -5px);
+  }
+}
+@mixin bounce-y-down {
+  @include animate(bounce-y-down, 2s, 0s, ease-in, infinite, normal);
+}
+
+.page-styling pre {
+    .fa-long-arrow-alt-left,
+    .fa-arrows-alt-h {
+      @include bounce-x-left;
+    }
+    .fa-long-arrow-alt-right {
+      @include bounce-x-right;
+    }
+    .fa-long-arrow-alt-up {
+      @include bounce-y-up;
+    }
+    .fa-long-arrow-alt-down {
+      @include bounce-y-up;
+    }
+
+    .fa-long-arrow-alt-left,
+    .fa-long-arrow-alt-right,
+    .fa-long-arrow-alt-up,
+    .fa-long-arrow-alt-down,
+    .fa-arrows-alt-h {
+        color: $brand-danger;
+
+    span {
+      font-family: $font-family-monospace;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 8pt;
+      vertical-align: middle;
+      margin: auto 0.5em;
+    }
+  }
+  .line {
+    width: 400px !important;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    @include bounce-x-left;
+
+    .horizontal-down {
+      height: 23px;
+      position: absolute;
+      right: 0;
+      margin-top: 8px;
+      border-top: 3px solid $brand-danger;
+      border-right: 3px solid $brand-danger;
+      z-index: 1;
+    }
+    .horizontal-up {
+      height: 23px;
+      position: absolute;
+      right: 0;
+      margin-top: -12px;
+      border-bottom: 3px solid $brand-danger;
+      border-right: 3px solid $brand-danger;
+      z-index: 0;
+    }
+  }
+}
+
+
+
+
+
+// CLOUD HOVER/FLOAT
+  // >>> Softly float up and down
+@include keyframes(float) {
+  0%, 100% {
+    @include translate(0, 0em);
+  }
+  50% {
+    @include translate(0, 0.25em);
+  }
+}
+@mixin float {
+  @include animate(float, 2s, 0s, ease-in-out, infinite, normal);
+}
+.tooltip {
+  @include float;
+}
+
+
+
+
+
+// BURST ANIMATIONS
+  // container
+@mixin drop-shadow {
+  -webkit-filter: drop-shadow(10px 8px 0px $gray-light);
+          filter: drop-shadow(10px 8px 0px $gray-light);
+}
+.callout-columns {
+  max-width: 600px;
+  min-height: 120px;
+  margin: ($line-height-computed * 1.5) auto ($line-height-computed + 40px);
+  padding: 20px 0;
+  position: relative;
+  border-radius: $border-radius-base;
+  background: #f5f5f5;
+  @include drop-shadow;
+  @include float;
+  &:nth-of-type(even)::after {
+    content: '';
+    //position: absolute;
+    //bottom: 0;
+    //right: 20px;
+    margin-left: 80%;
+    margin-bottom: -55px;
+    border: 40px solid transparent;
+    border-top-color: #f5f5f5;
+    border-bottom: 0;
+    border-right: 0;
+  }
+  &:nth-of-type(odd)::after {
+    content: '';
+    margin-left: calc(20% - 40px);
+    margin-bottom: -55px;
+    border: 40px solid transparent;
+    border-top-color: #f5f5f5;
+    border-bottom: 0;
+    border-left: 0;
+  }
+  .col-lg-3 {
+    text-align: center;
+    margin-bottom: 20px;
+    .icon {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      i {
+        font-size: 2.5em;
+        margin-top: 50%;
+        @include translate(0, -50%);
+      }
+    }
+  }
+  .col-lg-9 {
+    text-align: left;
+    font-family: $font-family-sans-serif-alt;
+    font-size: $font-size-large;
+    h1, h2, h3, h4, h5, h6, p {
+      margin-top: 0px !important;
+    }
+  }
+}
+
+  // burst animation
+@include keyframes(light-bursts) {
+  0%, 90%, 100% {
+    height: 0%;
+    bottom: 100%;
+  }
+  10% {
+    height: 0%;
+    bottom: 80%;
+  }
+  35% {
+    height: 20%;
+    bottom: 80%;
+  }
+}
+@mixin light-bursts {
+  @include animate(light-bursts, 1.5s, 0s, easin-out, infinite, normal);
+}
+  // burst lines
+ul.bursts {
+  list-style-type: none;
+  margin: 0;
+  margin-left: calc(50% - 1px);
+  padding: 0;
+  /*@media (max-width: $screen-xs) {
+    display: none;
+  }*/
+   // individual light bursts
+  li {
+    width: 2px;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    &::after {
+      content: '';
+      width: 2px;
+      height: 50%;
+      background: $gray; //re-color in sections
+      position: absolute;
+      left: 0;
+      bottom: 50%;
+      @include light-bursts;
+    }
+    //Draw 10 light bursts - use class name to include
+    &.deg0   {@include rotate(0deg);}
+    &.deg36  {@include rotate(36deg);}
+    &.deg72  {@include rotate(72deg);}
+    &.deg108 {@include rotate(108deg);}
+    &.deg144 {@include rotate(144deg);}
+    &.deg180 {@include rotate(180deg);}
+    &.deg216 {@include rotate(216deg);}
+    &.deg252 {@include rotate(252deg);}
+    &.deg288 {@include rotate(288deg);}
+    &.deg324 {@include rotate(324deg);}
+  }
+}
+
+  // individual callout
+@mixin callout($callout-color) {
+  li::after {
+    background: $callout-color;
+  }
+  i, b {
+    color: $callout-color;
+  }
+  a {
+    text-decoration: none;
+    color: $callout-color;
+    border-bottom: 2px dotted $callout-color;
+  }
+}
+
+   // individual light bursts
+div.status-info {
+  @include callout($brand-success);
+}
+div.status-warning {
+  @include callout($brand-warning);
+}
+div.status-danger {
+  @include callout($brand-danger);
+}
+div.status-question {
+  @include callout($brand-secondary);
+}
+div.memo {
+  @include keyframes(tiebow) {
+     0%, 100% {
+        @include scale(0);
+     }
+     15%, 90% {
+        @include scale(1.2);
+     }
+     25%, 80% {
+        @include scale(1);
+     }
+  }
+  @mixin tiebow {
+    @include animate(tiebow, 1.5s, 0s, easin-out, infinite, normal);
+  }
+  @include callout($brand-danger);
+  i:nth-of-type(1) {
+      color: BurlyWood;
+      z-index: -1;
+      margin-top: 1.2em !important;
+      margin-left: 0.05em;
+      &::after {
+         content: '';
+         width: 8px;
+         position: absolute;
+         top: 0.24em;
+         left: 0.18em;
+         border-top: 3px solid $brand-danger;
+      }
+   }
+   i:nth-of-type(2) {
+      color: $brand-danger;
+      z-index: 1;
+      font-size: 90% !important;
+      position: absolute;
+      margin-top: 2em !important;
+      margin-left: -2.25em;
+      @include tiebow;
+      &::after {
+         font-family: "Font Awesome 5 Free";
+         font-weight: 900;
+         content: "\f077";
+         font-size: 120%;
+         position: absolute;
+         top: 0.21em;
+         left: 0.08em;
+      }
+   }
+}

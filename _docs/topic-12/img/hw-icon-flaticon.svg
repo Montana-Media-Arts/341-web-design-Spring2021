@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="103px" viewBox="0 0 120 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>loader-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loader-logo" fill-rule="nonzero">
+            <path d="M48.372,56.137 L60.889,56.137 L72.045,37.6 L37.186,37.6 L25.688,18.539 L83.513,18.539 L94.668,0 L9.271,0 C5.925,0 2.842,1.801 1.198,4.716 C-0.446,7.623 -0.395,11.198 1.332,14.059 L51.712,97.56 C53.39,100.341 56.401,102.036 59.65,102.036 C62.896,102.036 65.907,100.341 67.585,97.56 L70.483,92.756 L48.372,56.137 Z" id="Shape" fill="#0B2139"></path>
+            <g id="Group" transform="translate(64.000000, 0.000000)" fill="#69E781">
+                <path d="M29.575,18.539 L29.606,18.539 L29.606,18.543 L51.258,18.547 L53.963,14.059 C55.69,11.198 55.741,7.623 54.096,4.716 C52.454,1.801 49.371,4.4408921e-15 46.026,4.4408921e-15 L40.732,4.4408921e-15 L29.575,18.539 Z" id="Shape"></path>
+                <polygon id="Shape" points="24.291 27.356 0.725 66.486 11.519 84.404 45.942 27.356"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

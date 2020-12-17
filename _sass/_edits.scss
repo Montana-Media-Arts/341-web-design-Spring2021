@@ -1,0 +1,728 @@
+/*--------------------
+| Justine's Additions |
+ --------------------*/
+// VARIABLES
+  // >>> found in:  /_sass/bootswatch/custom/_variables.scss
+    //$gray-base:                 #000;
+    //$gray-darker:               #222;
+    //$gray-dark:                 #333;
+    //$gray:                      #777;
+    //$gray-light:                #AEA79F;
+    //$gray-lighter:              #eee;
+    //$brand-primary:             #E95420;
+    //$brand-secondary:           #20B5E9;
+    //$brand-success:             #38B44A;
+    //$brand-info:                #772953;
+    //$brand-warning:             #EFB73E;
+    //$brand-danger:              #DF382C;
+    //$font-size-base:            16px !default;
+  // >>> found in: /_sass/bootswatch/custom/_bootswatch.scss
+    //“Roboto” is default font
+    //“Ubunto” for headings
+//See also: main.js, head.html
+
+
+
+
+
+// SITE-WIDE
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+iframe:not(.embed-responsive-item) {
+    margin: $line-height-computed auto;
+}
+
+
+
+
+
+// INDEX
+  // >>> overwrites:  /css/main.scss
+  // >>>              /_sass/bootstrap/_jumbotron.scss
+.jumbotron {
+  padding-top:    ($jumbotron-padding * 1.6);
+}
+.header-container {
+  background-position: center 18%;
+
+  .header-text {
+    background-color: rgba(255, 255, 255, .9);
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    color: #333;
+    margin-top: 10px;
+  }
+  .btn {
+    text-transform: uppercase;
+  }
+}
+.footer {
+  height: auto;
+}
+
+
+
+
+
+// DOC & POST LAYOUTS
+  // >>> overwrites:  /css/main.scss
+.page-styling {
+  padding-top: $navbar-margin-bottom;
+
+  #markdown-content-container {
+    // margin between all h2 other than under main h1
+    h2:nth-child(n+2) {
+      margin-top: ($line-height-computed * 2)
+    }
+    // no margin between h2 and first h3 subheading
+    h2+h3 {
+      margin-top: $line-height-computed;
+    }
+    // all other h3 subheadings with margin until next h2
+    h3, h4 {
+      margin-top: ($line-height-computed * 3)
+    }
+
+    .section-title {
+      img {
+        margin: 2em auto 3em;
+        max-width: 150px;
+      }
+      h2 {
+        text-align: center;
+      }
+      &::after {
+        content: '\00B7 \00B7 \00B7';
+        font-family: $font-family-sans-serif;
+        font-size: 4em;
+        color: $brand-info;
+        display: block;
+        text-align: center;
+      }
+    }
+
+    .container-row {
+      margin: 0;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  // images
+  img {
+    margin: ($line-height-computed * 2) auto;
+    @include img-responsive;
+  }
+  // image captions
+  .img-caption {
+    margin-top: -($line-height-computed * 1.5);
+    font-size:  $font-size-small;
+    font-family: $font-family-sans-serif-alt;
+    font-style: italic;
+    color: $gray-light;
+    &::before {
+      content: "\f0da";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: inherit;
+      font-style: normal;
+      margin-right: 5px;
+    }
+  }
+  .url-example {
+      font-family: $font-family-sans-serif-alt;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: bold;
+      vertical-align: middle;
+      margin: auto 0.5em;
+  }
+}
+
+
+
+
+
+// “ABOUT” PAGE
+  // >>> added to:    /_layouts/page.html
+  // >>> structure
+.page-design {
+  background-color: rgba(255, 255, 255, .7);
+  padding: 2rem;
+
+  .row-people {
+    display: block;
+    width: 100%;
+    margin: 2em auto;
+    @include clearfix;
+    h3 {
+      margin-top: 0;
+    }
+    .fab, .far, .fas, .fa {
+      margin-right: .75rem;
+      background-color: $brand-primary;
+      padding: .75rem;
+      color: white;
+      border-radius: 15%;
+    }
+    .profile-img {
+      object-fit: cover;
+      border-radius: 5%;
+      width: 150px;
+      height: auto;
+    }
+    div {
+      img {
+        float: left;
+        margin-right: 1.8rem;
+        margin-bottom: .5rem;
+      }
+    }
+  }
+  .name-tag-display {
+    width: 90%;
+    min-width: 275px;
+    margin: 5rem auto;
+    font-size: $font-size-large;
+
+    @media (max-width: $grid-float-breakpoint) {
+      text-align: justify;
+    }
+  }
+  // >>> name tag
+  .name-tag {
+    float: right;
+    margin: 1rem -6rem 3rem 3rem;
+  	height: 175px;
+  	width: 250px;
+  	background: $gray-lighter;
+  	border-radius: 10px;
+  	@include rotate(10deg);
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, .3);
+
+    @media (max-width: $grid-float-breakpoint) {
+      float: none;
+      margin: 5rem auto;
+    }
+    .hello-header {
+      height: 70px;
+    	width: 250px;
+    	background: $brand-danger;
+    	text-align: center;
+    	color: #fff;
+    	border: 5px solid $gray-lighter;
+    	border-top-left-radius: 10px;
+    	border-top-right-radius: 10px;
+    }
+    #hello {
+      text-transform: uppercase;
+    	font-weight: 600;
+    	font-size: 26px;
+    	letter-spacing: 10px;
+    }
+    #my-name-is {
+    	font-size: 20px;
+      font-family: $font-family-sans-serif;
+    	font-weight: 400;
+    	letter-spacing: 1px;
+      margin-top: -83px;
+    }
+    form {
+      display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    	margin: 7px 0 0 0;
+      span {
+    		position: absolute;
+    		top: 130px;
+    		left: 5px;
+    		height: 40px;
+    		width: 240px;
+    		background: $brand-danger;
+        padding-top: 13px;
+    		text-align: center;
+        font-family: $font-family-sans-serif;
+    		color: #fff;
+    		font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 1px;
+    		border-bottom-left-radius: 6px;
+    		border-bottom-right-radius: 6px;
+    		border: 0;
+        }
+    	output[type="text"] {
+    		width: 250px;
+        background-color: $gray-lighter;
+    		margin-top: -9px;
+    		font-family: 'Gochi Hand', cursive;
+    		text-align: center;
+        font-size: 32px;
+    		border: 0;
+    		outline: none;
+    		&:valid, &:focus {
+    			border: 0;
+        }
+      }
+    }
+  }
+  input[type="text"] {
+    text-align: center;
+    color: $gray;
+    border: 0;
+    border-bottom: 1px solid $gray-light;
+    outline: none;
+      &:valid, &:focus {
+      border: 0;
+      border-bottom: 1px solid $gray-light;
+      }
+  }
+}
+
+
+
+
+
+// TOP NAVIGATION
+  // >>> overwrites:  /_sass/bootstrap/_navbar.scss
+.navbar-brand {
+  font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+ img {
+    margin-right: .25rem;
+  }
+}
+.navbar-nav {
+  > li > a {
+    font-family: $font-family-sans-serif-alt !important;
+    text-transform: uppercase;
+    font-size: $font-size-small;
+  }
+  @media (max-width: $grid-float-breakpoint-max) {
+    margin-bottom: 0;
+    // Dropdowns get custom display when collapsed
+    .open .dropdown-menu {
+      span, hr {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: $grid-float-breakpoint-max) {
+  .navbar-right li > a {
+    display: inline-block;
+    float: left;
+  }
+  .fa-search {
+    visibility: hidden;
+  }
+}
+
+
+
+
+
+// DROPDOWN MENUS
+  // >>> overwrites:  /_sass/bootstrap/_dropdowns.scss
+.dropdown-menu {
+  padding: 5px;
+  span {
+    display: inline-block;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: $brand-info;
+    font-size: $font-size-base;
+    font-weight: bold;
+  }
+  > li > a {
+    font-family: $font-family-sans-serif-alt;
+  }
+  > li:last-child > a {
+    &:hover,
+    &:focus {
+    border-radius: 0 0 $border-radius-base $border-radius-base;
+    }
+  }
+  hr {
+    margin: 5px;
+    padding: 0;
+  }
+}
+
+
+
+
+
+// LABELS
+  // >>> overwrites:  /_sass/bootstrap/_labels.scss
+.page-styling {
+  .label {
+    font-family: $font-family-sans-serif-alt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: .25em .5em;
+    margin-right: .3em;
+  }
+  // >>> tags and categories
+  .label-tags {
+    color: $gray-light;
+    background-color: $gray-lighter;
+  }
+  .label-categories {
+    color: $gray-lighter;
+    background-color: $gray-light;
+  }
+}
+
+
+
+
+
+// PANELS
+  // >>> overwrites:  /_sass/bootstrap/_panels.scss
+.panel-heading a {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+}
+.panel-body {
+  font-family: $font-family-sans-serif;
+}
+
+
+
+
+
+
+// LIST GROUPS
+  // >>> overwrites:  /_sass/bootstrap/_list-group.scss
+.page-styling {
+  // UKNOWN ORIGINAL PURPOSE
+  /*.list-group-item {
+    padding-left: 30px;
+  }*/
+  .list-group-item-heading {
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+  }
+  .list-group-item-text {
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-size: $font-size-small;
+    margin: 5px auto;
+    color: $btn-link-disabled-color;
+  }
+  .hw-item-disabled {
+    background-color: #F5F5F5
+  }
+}
+
+
+
+
+
+// NAV GROUPS (TABS)
+  // >>> overwrites:  /_sass/bootstrap/__navs.scss
+.page-styling {
+  .nav-tabs {
+    > li {
+      &.active > a {
+        &,
+        &:hover,
+        &:focus {
+          background-color: #F5F5F5;
+        }
+      }
+    }
+  }
+  .tab-content {
+    > .tab-pane {
+      border-left: 1px solid $nav-tabs-justified-link-border-color;
+      border-bottom: 1px solid $nav-tabs-justified-link-border-color;
+      border-right: 1px solid $nav-tabs-justified-link-border-color;
+      border-radius: 0 0 $border-radius-base $border-radius-base;
+      background-color: #F5F5F5;
+    }
+    > .active {
+      padding: 20px;
+    }
+  }
+}
+
+
+
+
+
+// DIVIDERS
+.divider-pg {
+  width: 50%;
+  height: 2px;
+  background: $brand-info;
+  border: 1px solid $brand-info;
+  border-radius: 30px;
+  margin: 6rem auto;
+}
+.divider-heading {
+  width: 50%;
+  height: 4px;
+  background: $brand-warning;
+  border: 2px solid $brand-warning;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.divider-hw {
+  width: 90%;
+  background: $brand-warning;
+  border: 1px solid $brand-warning;
+  border-radius: 30px;
+  margin: $line-height-computed auto;
+}
+
+
+
+
+
+
+// CODEBLOCK DISPLAY
+  // >>> overwrites:  /_sass/bootstrap/_code.scss
+@mixin tab($tab-color) {
+  background: $tab-color;
+  &::after {
+    border-top-color: $tab-color;
+  }
+}
+.page-styling {
+  .code-heading {
+    display: block;
+    position: relative;
+    margin-top: ($line-height-computed * 2);
+    span {
+      display: inline-block;
+      width: auto;
+      height: 2em;
+
+      position: absolute;
+      right: 0;
+      top: -2em;
+      z-index: 1;
+
+      background: $state-warning-text;
+      border-radius: $border-radius-base $border-radius-base 0 0;
+      padding: 0.5rem 0.75rem;
+
+      color: #fff;
+      font-family: $font-family-sans-serif-alt;
+      font-size: .75em;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+      &::after {
+        content: '';
+        width: 0;
+        height: 0;
+
+        position: absolute;
+        left: 50%;
+        bottom: -8px;
+        @include translate(-50%, 0);
+
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $state-warning-text;
+      }
+      &.md {
+        @include tab($gray)
+      }
+      &.html {
+        @include tab($brand-primary)
+      }
+      &.css {
+        @include tab($brand-secondary)
+      }
+      &.js {
+        @include tab($brand-warning)
+      }
+      &.preview {
+        @include tab($pre-border-color);
+        color: $gray-dark;
+      }
+    }
+  }
+  pre {
+    position: relative;
+    padding: $line-height-computed (($line-height-computed - 1) / 2);
+    margin: ($line-height-computed * 2) auto;
+    border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+    word-break: normal;
+    word-wrap: normal;
+    -webkit-overflow-scrolling: touch;
+
+    .fab, .far, .fas, .fa {
+      font-size: 1.1em;
+    }
+  }
+  .preview {
+    display: block;
+    padding: (($line-height-computed - 1) / 2);
+    margin: 0 0 ($line-height-computed / 2);
+    border-radius: $border-radius-base 0 $border-radius-base $border-radius-base;
+    word-break: normal;
+    word-wrap: normal;
+    font-size: ($font-size-base - 1); // 14px to 13px
+    line-height: $line-height-base;
+    color: $pre-color;
+    background-color: #fff;
+    border: 1px solid $pre-border-color;
+  }
+}
+
+
+
+
+
+// LISTS
+  // >>> Pros and Cons List
+.page-styling {
+  ul.pros-and-cons {
+    list-style: none;
+    margin-bottom: ($line-height-computed * 2);
+  }
+}
+
+
+
+
+
+// COLUMN LAYOUTS
+  // >>> 2-column Img + Text
+.img-text-columns {
+  //margin: 1rem auto !important;
+  .col-lg-2, .col-lg-3 {
+    text-align: center;
+    padding-bottom: $line-height-computed;
+    img {
+      width: 100%;
+      margin: 0 auto 1rem;
+      @media (max-width: $screen-lg) {
+        max-width: 100px;
+        margin: 2rem auto;
+      }
+    }
+    span {
+      font-weight: bold;
+    }
+  }
+  .col-lg-9, .col-lg-10 {
+    h3:first-of-type {
+      margin-top: 0 !important;
+    }
+  }
+}
+// >>> 2-column Tutorial Step-by-Step
+table.numbered-steps {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  td, th {
+    border-top: 0 !important;
+    h3 {
+      margin-top: 0 !important;
+    }
+  }
+  th div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: $brand-secondary;
+
+    line-height: 80px;
+    text-align: center;
+    font-size: $font-size-base;
+    font-family: $font-family-sans-serif-alt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+  }
+  td {
+    pre {
+      margin: $line-height-computed auto ($line-height-computed * 2);
+    }
+    .img-caption {
+      margin-bottom: ($line-height-computed * 2);
+    }
+  }
+}
+
+
+
+
+
+// FONTAWESOME ICONS
+.fa-tags, .fa-sitemap {
+  color: $label-default-bg;
+}
+.fa-markdown {
+  color: $gray;
+}
+.fa-html5 {
+  color: $brand-primary;
+}
+.fa-css3-alt {
+  color: $brand-secondary;
+}
+.fa-js {
+  color: $brand-warning;
+}
+.fa-font {
+  color: $brand-success;
+}
+.fa-image, .fa-music, .fa-video {
+  color: $brand-info;
+}
+.fa-thumbtack {
+  @include rotate(270deg);
+}
+  // >>> TODO icons
+i.icon-hw {
+  margin: 10px auto 30px;
+  color: $panel-info-text;
+  height: 80px;
+  /*fontawesome*/ font-size: 5em;
+}
+img.icon-hw {
+  margin: 10px auto 30px;
+  color: $panel-info-text;
+  height: 80px;
+  /*images ~ 6ems*/ //width: 96px;
+  /*images ~ 5ems*/ //width: 80px;
+}
+  // >>> List Items (x, ✓)
+.icon-pro, .icon-con {
+  position: relative;
+}
+.icon-pro::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: $brand-success;
+  font-size: inherit;
+  font-style: normal;
+  margin-right: 5px;
+  position: absolute;
+  left: -25px;
+}
+.icon-con::before {
+  content: "\f00d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: $brand-danger;
+  font-size: inherit;
+  font-style: normal;
+  margin-right: 8px;
+  position: absolute;
+  left: -25px;
+}

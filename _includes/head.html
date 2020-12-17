@@ -1,0 +1,33 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico?1" | prepend: site.baseurl }}">
+    {% seo %}
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!--Justine's Additions -->
+    <!--FontAwesome 5 -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Codepen -->
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    <!-- H5P -->
+      <script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+    <!-- Vimeo -->
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    <!-- Favicons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicons/favicon-32x32.png" | prepend: site.baseurl }}">
+      <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicons/favicon-16x16.png" | prepend: site.baseurl }}">
+      <link rel="manifest" href="{{ "/img/favicons/site.webmanifest" | prepend: site.baseurl }}">
+      <link rel="mask-icon" href="{{ "/img/favicons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#e95420">
+      <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
+      <meta name="theme-color" content="#ffffff">
+</head>

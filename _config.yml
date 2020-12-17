@@ -1,0 +1,63 @@
+# Site Settings
+title: MART 341 Intro-Web-Dev
+email: admin@media-ed-online.com
+description: >
+  Course content for an introductory look at building and designing for the web.
+lang: en-US
+
+apex: https://montana-media-arts.github.io/341-web-design-Fall2020/
+author:
+  name: Michael Cassens
+  email: michael.cassens@umontana.edu
+
+baseurl: "https://montana-media-arts.github.io/341-web-design-Fall2020"
+url: https://montana-media-arts.github.io/341-web-design-Fall2020/
+git_address: https://github.com/Montana-Media-Arts/341-web-design-Fall2020
+git_edit_address: https://github.com/Montana-Media-Arts/341-web-design-Fall2020/blob/gh-pages
+
+# Theme options from https://bootswatch.com/
+# Comment out this to use default Bootstrap
+bootwatch: custom
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+  - .DS_Store
+
+timezone: America/Denver
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true

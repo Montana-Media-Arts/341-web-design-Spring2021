@@ -1,0 +1,21 @@
+---
+---
+[
+{% for page in site.docs %}
+    {% unless page.categories contains 'uncategorized' %}
+    {
+    "title": "{{ page.title  | remove: "1." | remove: "2." | remove: "3." | remove: "4." | remove: "5." | replace: "&gt;", ">" | replace: "&lt;", "<" | replace: "&#58;", ":" }}",
+    "tags": "{{ page.tags | join: ', ' }}",
+    "url": "{{ page.url | prepend: site.baseurl }}"
+    },
+    {% endunless %}
+{% endfor %}
+
+  {% for post in site.posts %}
+  {
+  "title": "{{ post.title | escape }}",
+  "tags": "{{ post.tags | join: ', ' }}",
+  "url": "{{ post.url | prepend: site.baseurl }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

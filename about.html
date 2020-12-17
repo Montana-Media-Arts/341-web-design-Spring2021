@@ -1,0 +1,170 @@
+---
+layout: default
+id: about
+title:  "About the Course"
+author: Justine
+---
+
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+  body {
+    background-image: url(img/page-bg.svg);
+    background-size: 400px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  h1, h2 {
+    text-transform: uppercase;
+  }
+</style>
+<script type="text/javascript" charset="utf-8">
+    function updateNametag(){
+    username = document.getElementById("inputNametag").value;
+    document.getElementById("Nametag").value = username;
+    }
+</script>
+
+
+<div class="container page-styling">
+
+    <div class="row">
+
+        <div class="col-md-4">
+        </div>
+
+        <div class="col-md-8 page-design">
+            <h1>{{ page.title }}</h1>
+
+            <h3>Welcome to Introduction to Web Design & Development!</h3>
+
+            <p>This experience is intended to make you comfortable with presenting yourself through the web, learning skills that should allow you to build, manage, and develop websites.</p>
+
+            <div class="name-tag-display">
+              <div class="name-tag">
+                <div class="hello-header">
+                  <div id="hello">Hello!</div>
+                  <div id="my-name-is">My name is</div>
+                </div>
+                <form class="form">
+                  <div>
+                    <output type="text" class="inputNametag" name="some_name" value="" id="Nametag" onkeyup="updateNametag();"></output>
+                  </div>
+                  <div>
+                    <span>and I develop websites from <u>scratch</u></span>
+                  </div>
+                </form>
+              </div>
+              <p>This is not a <a href="https://www.wix.com/">Wix</a> or <a href="https://wordpress.com/">WordPress</a> development course; this is a <span><input type="text" name="nameTaginput" value="" id="inputNametag" placeholder="insert-your-name-here" onkeyup="updateNametag();"></span> development course! Here, we learn coding and do-it-yourself design, so be prepared to roll up your sleeves and “git” dirty...</p>
+            </div>
+
+            <p>Here, students will gain necessary skills in this introduction to the fundamentals of website structure, content design, and navigation. Areas of focus will be directory structure, visual design, user navigation, audio/video integration, and domain management. This course is open to all level of student, but and is geared to non-majors and beginners.</p>
+
+            <p>We will start with an overview of technologies used for web development, followed by an in-depth presentation of HTML and CSS. We conclude by exploring responsive web design, site frameworks, and site management solutions.</p>
+
+
+            <div class="divider-pg"></div>
+
+
+            <h2 id="people">These Fine Folks</h2>
+            <p>Many thanks to the people who have created, maintained, cried, and bled for this site:</p>
+
+            <div class="row-people" id="Michael">
+              <div class="row">
+                <img src="img/users/user-cassens.jpg" alt="profile of Michael Cassens" title="Michael Cassens" class="profile-img" />
+                <h3>Michael Cassens</h3>
+                <p>
+                  <span class="label label-primary">Instructor</span>
+                  
+                </p>
+                <p>Game Designer, mobile application developer, Director of UM Esports, creative technologist, dad, husband, mountain biker.</p>
+                <p>
+                  <a href="mailto:michael.cassens@umontana.edu" target="_blank"><i class="fas fa-envelope fa-lg"></i></a>
+                  <a href="https://calendly.com/michael-cassens/341-meeting" target="_blank"><i class="fab fa-lg fa-calendar"></i></a>
+                  <a href="https://twitter.com/retrog4m3r" target="_blank"><i class="fab fa-lg fa-twitter"></i></a>
+                  <a href="http://grizzlyesportsum.com/" target="_blank"><i class="fas fa-home fa-lg"></i></a>
+                </p>
+              </div>
+
+            <div class="row-people" id="Justine">
+              <div class="row">
+                <img src="img/users/user-evans.jpg" alt="profile of Justine Evans" title="Justine Evans" class="profile-img" />
+                <h3>Justine Evans</h3>
+                <p>
+                  <span class="label label-warning">Originator</span>
+                </p>
+                <p>Professional de-constructor, media artist, digital designer, and experimenter. Avid connoisseur of B-movies and Jonny Cash.</p>
+                <p>
+                  <a href="https://media-ed-online.com" target="_blank"><i class="fas fa-home fa-lg"></i></a>
+                </p>
+              </div>
+
+              <hr>
+
+              <div class="row" id="Michael">
+                <img src="img/users/user-musick.jpg" alt="profile of Michael Musick" title="Michael Musick" class="profile-img" />
+                <h3>Dr. Michael Musick</h3>
+                <p>
+                  <span class="label label-warning">Originator</span>
+                </p>
+                <p>Media artist, music technologist, composer, performer, improviser, and researcher in interactive performance systems.</p>
+                <p>
+                  <a href="https://michaelmusick.com/" target="_blank"><i class="fas fa-home fa-lg"></i></a>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="divider-pg"></div>
+
+            <div class="row-people">
+              <div class="row">
+                <h2 id="legal">Media-Ed-Online</h2>
+                <img src="img/logo-filled.svg" width="150" style="float: left;"/>
+                <p>The parent of this site, <i>Media-Ed-Online</i> focuses on provided easily-accessible and attainable resources for learners of all levels.</p>
+                <p>Content ranges from digital design and creation to media theory and genre studies.</p>
+                <a href="https://media-ed-online.com" target="_blank"><i class="fas fa-home fa-lg"></i></a>
+              </div>
+            </div>
+
+
+            <div class="divider-pg"></div>
+
+
+            <h2 id="legal">Legal Stuff</h2>
+            <h3 id="license">License</h3>
+            <p>This site was created by Justine Evans.</p>
+            <p>Created imagery is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width: 0; margin-top: 5px;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a></p>
+
+            <h3 id="references">References</h3>
+            <p>Much of the content for this course has been adapted from the Jon Duckett’s <a href="http://www.htmlandcssbook.com/">HTML and CSS</a> book. Many code examples are also copied or derived from their examples available from the book’s homepage.</p>
+            <p>Additional material has been linked from or adapted from:</p>
+              <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://scotch.io/">scotch.io</a></li>
+                <li><a href="https://developers.google.com/web/">Goodle Web Development Resources</a></li>
+                <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+              </ul>
+
+            <h3 id="citations">Citations</h3>
+            <p>Adapted from “<a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>” by <a href="https://github.com/aksakalli">Can Güney Aksakalli</a>, MIT licence.</p>
+            <p>Icons provided by:</p>
+              <ul>
+                <li><a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+                <li><a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+                <li><a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></li>
+              </ul>
+            <p>Addition assests:</p>
+              <ul>
+                <li>“Web Design Machine,” flash animation &copy; <a href="https://www.netsoftlab.com/full-flash.php">NetSoftLab</a></li>
+                <li>“Octocat says Hi!,” morph animation &copy; <a href="https://codepen.io/elifitch/pen/YqrOWj">Eli Fitch</a></li>
+                <li>“Production Services,” gif animation &copy; <a href="http://www.pepcreations.com/solutions/studio-motion-animation/">PepCreations</a></li>
+                <li>“Name Tag Signup,” code &copy; <a href="https://codepen.io/joshbivens/">Josh Bivens</a></li>
+              </ul>
+        </div>
+
+    </div>
+
+</div>

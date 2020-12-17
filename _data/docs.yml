@@ -1,0 +1,867 @@
+# Page Listings for Modules
+
+examples:
+  - title: Getting Started
+    docs:
+    - home
+    - themes
+    - customization
+
+  - title: Examples
+    docs:
+    - cheatsheet
+    - font-awesome
+    - bootstrap
+
+  - title: Justine's Trials
+    docs:
+    - trial-labels
+    - trial-modals
+    - trial-tree-view
+    - trial-codeblock
+
+##################################################
+
+topic-00:
+  - title: “Getting Started”
+    docs:
+    - overview
+
+  - title: Learning Resources
+    docs:
+    - moodle
+    - website
+    - services
+
+  - title: Homework
+    docs:
+    - homework
+    - todo-homework
+
+  - title: Submitting with GitHub
+    docs:
+    - gh-overview
+    - gh-registration
+    - gh-issues
+    - todo-gh-reg
+
+##################################################
+
+topic-01:
+  - title: Files and Directories
+    docs:
+    - overview
+
+  - title: Files
+    docs:
+    - web-files-pages
+    - web-files-images
+    - web-files-audio-video
+    - web-files-scripts
+    - web-files-text
+    - todo-files
+
+  - title: Directories
+    docs:
+    - directories-web
+    - directories-structure
+    - naming-practices
+    - todo-directories
+
+  - title: Documentation
+    docs:
+    - text-files
+    - markdown-files
+    - readme-files
+    - todo-editors
+
+  - title: Developing with GitHub.com
+    docs:
+    - gh-vcs
+    - gh-new-repo
+    - gh-edit-file
+    - gh-new-file
+    - gh-add-file
+    - todo-gh-site
+
+##################################################
+
+topic-02:
+  - title: The Internet
+    docs:
+    - overview
+
+  - title: Q & A with “the Internet”
+    docs:
+    - what-is-the-net
+    - what-is-the-web
+    - how-the-net-works
+    - todo-net
+
+  - title: The Flow of Information
+    docs:
+    - net-infrastructure
+    - net-protocols
+    - todo-net-flow
+
+  - title: Directories and Addresses
+    docs:
+    - urls-addresses
+    - urls-absolute
+    - urls-relative
+    - todo-urls
+
+  - title: README.md Files
+    docs:
+    - readme-directories
+    - readme-markdown
+    - todo-readme
+
+  - title: Markdown Elements
+    docs:
+    - markdown-headings
+    - markdown-paragraphs
+    - markdown-emphasis
+    - markdown-lists
+    - markdown-links
+    - markdown-images
+    - markdown-code
+    - todo-markdown
+
+  - title: Developing with a Text Editor
+    docs:
+    - atom-install
+    - atom-directories
+    - atom-files
+    - atom-readmes
+    - atom-move-file
+    - git-add-directory
+    - todo-atom
+
+##################################################
+
+topic-03:
+  - title: Intro to HTML
+    docs:
+    - overview
+
+  - title: Browsers
+    docs:
+    - browser-intro
+    - browser-history
+    - browser-stats
+    - todo-browsers
+
+  - title: Document Object Model
+    docs:
+    - dom-breakdown
+    - dom-markup
+    - dom-html
+    - todo-dom
+
+  - title: Document Structure
+    docs:
+    - doc-elements-intro
+    - doctype
+    - root-element
+    - head-element
+    - body-element
+    - doc-elements-review
+    - todo-elements
+
+  - title: Pages
+    docs:
+    - page-index
+    - page-urls
+    - page-content
+    - todo-page
+
+  - title: Developing With GitHub Pages
+    docs:
+    - gh-pages
+    - gh-pages-repo
+    - gh-pages-dev
+    - gh-pages-live
+    - todo-gh-pages
+
+##################################################
+
+topic-04:
+  - title: HTML Elements
+    docs:
+    - overview
+
+  - title: Snooping Around
+    docs:
+    - view-source
+    - view-inspect
+    - view-archives
+    - todo-snooping
+
+  - title: Two-Tag Elements
+    docs:
+    - two-tags-elements
+    - two-tags-headings
+    - two-tags-paragraphs
+    - todo-two-tags
+
+  - title: One-Tag Elements
+    docs:
+    - one-tag-elements
+    - one-tag-line-breaks
+    - one-tag-horizontal-rules
+    - one-tag-images
+    - todo-one-tag
+
+  - title: "Navigation: Basic Links"
+    docs:
+    - nav-links
+    - nav-pages
+    - todo-nav-links
+
+  - title: Developing with GitHub Desktop
+    docs:
+    - gh-app-install
+    - gh-app-connect
+    - gh-app-navigate
+    - gh-app-workflow
+    - todo-gh-app
+
+##################################################
+
+topic-05:
+  - title: Additional HTML Elements
+    docs:
+    - overview
+
+  - title: Comments in HTML
+    docs:
+    - leaving-messages-html
+    - html-comments
+    - todo-html-comments
+
+  - title: Attributes
+    docs:
+    - html-review
+    - attributes
+    - html-lang-attribute
+    - structure-review
+    - todo-structure
+
+  - title: Declaring Doctype
+    docs:
+    - doctype
+    - doctype-past
+    - doctype-now
+    - todo-doctype
+
+  - title: Head Elements
+    docs:
+    - head-elements-intro
+    - head-meta
+    - head-viewport
+    - head-title
+    - head-link
+    - head-style
+    - head-elements-review
+    - todo-head
+
+  - title: Body Elements
+    docs:
+    - body-elements
+    - structural-markup
+    - semantic-markup
+    - todo-body
+
+  - title: Semantic Markup
+    docs:
+    - bold-strong
+    - italic-emphasis
+    - sup-sub
+    - quote-blockquote
+    - abbr-acro
+    - citations
+    - definitions
+    - addresses
+    - ins-del
+    - strikethrough
+    - todo-semantics
+
+  - title: Lists
+    docs:
+    - html-lists
+    - ordered-lists
+    - unordered-lists
+    - definition-lists
+    - nested-lists
+    - todo-lists
+
+  - title: External Hyperlinks
+    docs:
+    - ex-links-intro
+    - href
+    - new-window
+    - links-to-others
+    - email-links
+    - todo-ex-links
+
+  - title: Proper and Polite Code
+    docs:
+    - writing-code
+    - ordering
+    - burrito-tags
+    - indentation
+    - todo-writing-code
+
+##################################################
+
+# This is a copy:
+
+# TOPIC 06
+topic-06:
+  - title: HTML Images, Tables, and Forms
+    docs:
+    - overview
+
+  - title: Image Integration
+    docs:
+    - img-about
+    - img-save
+    - img-tag
+    - img-src
+    - img-alt
+    - img-title
+    - img-size
+    - img-element
+    - todo-img-int
+  - title: Table Structure
+    docs:
+    - table-about
+    - table-structure
+    - table-rows
+    - table-cells
+    - table-headings
+    - table-element
+    - todo-table-structure
+
+  - title: Table Styling
+    docs:
+    - table-style
+    - table-borders
+    - table-padding
+    - todo-table-styling
+
+  - title: Intro to Forms
+    docs:
+    - form-about
+    - form-tag
+    - form-action
+    - form-method
+    - form-id-class
+    - form-element
+    - todo-form-intro
+
+  - title: Form Input Elements
+    docs:
+    - input-about
+    - input-tag
+    - input-type
+    - input-name
+    - input-id
+    - input-element
+    - todo-form-input
+
+  - title: Text Types
+    docs:
+    - text-intro
+    - text-plain
+    - text-password
+    - text-textarea
+    - text-maxlength
+    - text-cols-rows
+    - text-placeholder
+    - text-size
+    - text-value
+    - text-autofocus
+    - todo-text-type
+
+  - title: Selection Types
+    docs:
+    - select-intro
+    - select-radio
+    - select-checkbox
+    - select-dropdown
+    - todo-select-type
+
+
+  - title: Button Types
+    docs:
+    - button-intro
+    - button-upload
+    - button-submit
+    - button-image
+    - button-element
+    - todo-button-type
+
+  - title: Form Management
+    docs:
+    - form-mgmnt
+    - form-labels-ids
+    - form-fieldsets-legends
+    - todo-form-mgmnt
+
+  - title: HTML5 Inclusions
+    docs:
+    - html5-new
+    - html5-validation
+    - html5-date
+    - html5-email
+    - html5-search
+    - html5-img
+    - todo-html5
+
+##################################################
+
+# TOPIC 07
+topic-07:
+  - title: Media
+    docs:
+    - overview
+
+  - title: The Building Blocks of Pages
+    docs:
+    - extra-markup
+    - html-ids
+    - html-classes
+    - html-divs
+    - html-spans
+    - grouping-elements
+    - todo-blocks
+
+  - title: Iframes
+    docs:
+    - iframe-element-intro
+    - iframe-tags
+    - iframe-src
+    - iframe-size
+    - iframe-element-review
+    - iframe-element-websites
+    - iframe-element-maps
+    - iframe-element-media
+    - todo-iframes
+
+  - title: The Meta Element
+    docs:
+    - meta-about
+    - meta-charset
+    - meta-desc
+    - meta-author
+    - meta-keywords
+    - meta-viewport
+    - meta-element-review
+    - todo-meta
+
+  - title: Escape Characters
+    docs:
+    - esc-about
+    - esc-names
+    - esc-codes
+    - esc-common
+    - todo-esc
+
+  - title: Media Management
+    docs:
+    - media-about
+    - media-src-img
+    - media-src-video
+    - media-src-audio
+    - media-optimizing
+    - media-hosting
+    - todo-media-mgmnt
+
+  - title: Images
+    docs:
+    - img-about
+    #- img-element-intro
+    #- img-tag
+    #- img-src
+    #- img-alt
+    #- img-title
+    #- img-size
+    #- img-element-review
+    #- img-support
+    #- todo-img
+
+  - title: Video
+    docs:
+    - video-hosting
+    - video-element-intro
+    - video-tags
+    - video-src
+    - video-poster
+    - video-size
+    - video-other-att
+    - video-element-review
+    - video-formats
+    - todo-video
+
+
+  - title: Audio
+    docs:
+    - audio-hosting
+    - audio-element-intro
+    - audio-tags
+    - audio-src
+    - audio-other-att
+    - audio-element-review
+    - audio-formats
+    - todo-audio
+
+##################################################
+
+# TOPIC 08
+topic-08:
+  - title: HTML and Styles
+    docs:
+    - overview
+
+  - title: Content to Review
+    docs:
+    - todo-project1-review
+
+  - title: Beginning Styling
+    docs:
+    - basic-styling-about
+    - basic-style-element
+    - basic-styling-divs
+    - basic-styling-backgrounds
+    - basic-styling-text
+    - basic-styling-images
+    - basic-styling-lists
+    - todo-basic-styling
+
+  - title: Adding Navigation
+    docs:
+    - basic-nav-about
+    - basic-nav-element
+    - basic-nav-site
+    - basic-nav-section
+    - todo-basic-nav
+
+##################################################
+
+# TOPIC 09
+topic-09:
+  - title: CSS Fundamentals
+    docs:
+    - overview
+
+  - title: The Anatomy of Style
+    docs:
+    - select-declare
+    - multi-selectors
+    - property-value
+    - knowing-css
+    - todo-anatomy
+
+  - title: Style Guide
+    docs:
+    - where-style
+    - style-attribute
+    - style-element
+    - style-doc
+    - todo-guide
+
+
+  - title: CSS Documents
+    docs:
+    - css-docs
+    - link-tag
+    - link-rel
+    - link-type
+    - link-href
+    - link-element
+    - todo-docs
+
+  - title: CSS Applied
+    docs:
+    - css-comments
+    - understand-css
+    - apply-css
+    - todo-applied
+
+  - title: Selector Types
+    docs:
+    - selectors-universal
+    - selectors-element
+    - selectors-class
+    - selectors-id
+    - todo-selectors
+
+ # - title: Chaining Selectors
+  #  docs:
+  #  - chain-direct
+  #  - chain-child
+  #  - chain-descendent
+  #  - chain-sib-adj
+  #  - chain-sib-gen
+  #  - todo-chaining
+
+  - title: Cascading
+    docs:
+    - cascade-rules
+    - cascade-order
+    - cascade-specify
+    - cascade-important
+    - todo-cascade
+
+  #- title: Inheritance
+  #  docs:
+  #  - inherit-who
+  #  - inherit-what
+  #  - todo-inherit
+
+  - title: Exploring Color
+    docs:
+    - specify-color
+    - color-name
+    - color-rgb
+    - color-hex
+    - saturated-color
+    - grayscale-color
+    - combining-color
+   # - color-atom
+    - todo-exploring
+
+  - title: Using Color
+    docs:
+    - bg-color
+    - text-color
+    - opacity
+    - intro-positioning
+    - more-color
+    - todo-using
+
+##################################################
+
+# TOPIC 10
+topic-10:
+  - title: CSS Fonts, Decorating and Alignment
+    docs:
+    - overview
+
+  - title: Typography
+    docs:
+    - intro-typography
+    - font-typefaces
+    - font-categories
+    - todo-typography
+
+  - title: Using Fonts
+    docs:
+    - font-family
+    - font-fallbacks
+    - using-fonts
+    - todo-fonts
+
+  - title: Sizing
+    docs:
+    - font-size
+    - fixed-size
+    - relative-size
+    - using-size
+    - todo-sizing
+
+  - title: Adding Meaning
+    docs:
+    - bold-italic
+    - font-weight
+    - font-style
+    - using-weight-style
+    - todo-meaning
+
+  - title: Decorating
+    docs:
+    - font-variant
+    - text-transform
+    - text-decoration
+    - todo-decor
+
+  - title: Spacing
+    docs:
+    - intro-spacing
+    - leading
+    - kerning
+    - tracking
+    - word-spacing
+    - todo-spacing
+
+  - title: Alignment
+    docs:
+    - hori-align
+    - vert-align
+    - text-indent
+    - todo-alignment
+
+  - title: Pseudos
+    docs:
+    - pseudo-selectors
+    - pseudo-elements
+    - pseudo-classes
+    - pseudo-states
+    - todo-pseudos
+
+  - title: Self-Hosted Fonts
+    docs:
+    - including-fonts
+    - font-directory
+    - font-stylesheet
+    - font-face-selector
+    - font-face-family
+    - font-face-src
+    - font-face-other
+    - font-face-rule
+    - todo-font-face
+
+  - title: Library-Hosted Fonts
+    docs:
+    - sourcing-fonts
+    - google-fonts-part-1
+    - google-fonts-part-2
+    - google-fonts-part-3
+    - google-fonts-part-4
+    - todo-src-fonts
+
+##################################################
+
+# TOPIC 11
+topic-11:
+  - title: CSS Positioning
+    docs:
+    - overview
+
+  - title: Sizing
+    docs:
+    - box-intro
+    - box-model
+    - box-sizing
+    - box-sizing-min-max
+    - todo-box-size
+
+  - title: Overflow
+    docs:
+    - overflow-intro
+    - overflow-example
+    - todo-overflow
+
+  - title: Borders
+    docs:
+    - border-intro
+    - border-properties
+    - border-radius
+    - border-example
+    - todo-border
+
+  - title: Padding
+    docs:
+    - padding-intro
+    - padding-example
+    - todo-padding
+
+  - title: Margin
+    docs:
+    - margin-intro
+    - margin-example
+    - todo-margin
+
+  - title: Display
+    docs:
+    - display-intro
+    - display-properties
+    - display-example
+    - todo-display
+
+  - title: Hidden
+    docs:
+    - hidden-intro
+    - hidden-example
+    - todo-hidden
+
+  - title: Position
+    docs:
+    - position-intro
+    - position-normal
+    - position-relative
+    - position-absolute
+    - position-fixed
+    - position-example
+    - todo-position
+
+  - title: Z-Index
+    docs:
+    - z-index-intro
+    - z-index-example
+    - todo-z-index
+
+  - title: Float
+    docs:
+    - float-intro
+    - float-clear
+    - float-example
+    - todo-float
+
+##################################################
+
+# TOPIC 12
+topic-12:
+  - title: CSS Website
+    docs:
+    - overview
+
+  - title: Content to Review
+    docs:
+    - todo-project2-review
+
+  - title: Responsive Web Design
+    docs:
+    - rwd-intro
+    - rwd-mobile-first
+    - rwd-viewport
+    - rwd-targets
+    - rwd-gridview
+    - rwd-mediaquery
+    - rwd-images
+    - rwd-iframes
+    - todo-rwd
+
+  - title: Interactive Navigation
+    docs:
+    - nav-menu-about
+    - nav-menu-bar
+    - nav-menu-dropdown
+    - nav-menu-sticky
+    - todo-nav-menu
+
+##################################################
+
+# TOPIC 13
+topic-13:
+  - title: “Responsiveness”
+    docs:
+    - overview
+
+  - title: Responsive Web Design
+    docs:
+    - rwd-intro
+    - rwd-viewport
+    - rwd-targets
+    - rwd-mobile-first
+    - todo-rwd
+
+  - title: Media Queries
+    docs:
+    - queries-intro
+    - queries-simple
+    - queries-breakpoints
+    - queries-complex
+    - todo-queries

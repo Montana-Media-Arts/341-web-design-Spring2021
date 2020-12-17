@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="container page-styling">
+    <div class="row">
+        <div class="col-md-4">
+          {% include nav_docs.html %}
+        </div>
+
+        <div class="col-md-8">
+            {% unless page.title contains 'Topic Overview' %}
+                <h1>{{ page.todo }} {{ page.title }}</h1>
+            {% endunless %}
+
+            <div id="markdown-content-container">{{ content }}</div>
+
+            <hr>
+
+            {% unless page.categories contains 'uncategorized' %}
+              <div style="clear:both;">
+                <p style="margin-top: -1rem;">
+                  <i class="fas fa-sitemap fa-xs" aria-hidden="true"></i>
+                  {% assign showcategory = page.categories %}
+                    {% for member in showcategory %}
+                      <span class="label label-categories">{{ member | remove: "," }}</span>
+                    {% endfor %}
+
+                  <span style="margin: auto 1.5rem auto 1rem; border-right: 1px solid #eee;"></span>
+
+                  <i class="fas fa-tags fa-xs" aria-hidden="true"></i>
+                    {% assign showtag = page.tags %}
+                      {% for member in showtag %}
+                        <span class="label label-tags">{{ member | remove: "," }}</span>
+                      {% endfor %}
+                </p>
+              </div>
+            {% endunless %}
+
+            {% include nav_sections.html %}
+        </div>
+
+    </div>
+</div>
