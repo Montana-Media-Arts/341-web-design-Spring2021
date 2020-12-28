@@ -14,7 +14,7 @@ tags: link, markdown
   <span class="md">Markdown</span>
 </div>
 ```markdown
-[Course Website](https://montana-media-arts.github.io/341-web-design-Fall2020)
+[Course Website](https://montana-media-arts.github.io/341-web-design-Spring2021)
 
 Learn how to [make links in Markdown](../topic-02/markdown-links)!
 ```
@@ -23,7 +23,7 @@ Learn how to [make links in Markdown](../topic-02/markdown-links)!
   <span class="preview">Preview</span>
 </div>
 <div class="preview">
-<p><a href="https://montana-media-arts.github.io/341-web-design-Fall2020/">Course Website</a></p>
+<p><a href="https://montana-media-arts.github.io/341-web-design-Spring2021/">Course Website</a></p>
 
 <p>Learn how to <a href="#">make links in Markdown</a>!</p>
 </div>

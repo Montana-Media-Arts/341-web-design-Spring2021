@@ -9,14 +9,14 @@ tags: directory, link, relative, repository, url
 <div class="divider-heading"></div>
 
 ## Relative Linking Within Your Repository
-As you now know, the internet is built foundationally on links and inter-connected files and systems. We'll get into **hypertext** and **hyperlinks** later on in the course, but for right now, let's continue the <a href="https://montana-media-arts.github.io/341-web-design-Fall2020/topic-02/urls-absolute/" target="_new">discussion on absolute URLs</a> and <a href="https://montana-media-arts.github.io/341-web-design-Fall2020/topic-02/urls-relative/" target="_new">discussion on relative URLs</a>, looking at linking the files within our directory together.
+As you now know, the internet is built foundationally on links and inter-connected files and systems. We'll get into **hypertext** and **hyperlinks** later on in the course, but for right now, let's continue the <a href="https://montana-media-arts.github.io/341-web-design-Spring2021/topic-02/urls-absolute/" target="_new">discussion on absolute URLs</a> and <a href="https://montana-media-arts.github.io/341-web-design-Spring2021/topic-02/urls-relative/" target="_new">discussion on relative URLs</a>, looking at linking the files within our directory together.
 
 You've done some linking in **markdown** already, using outside sources and _absolute_ URLs:
 
 
 <div id="code-heading">Markdown</div>
 ```markdown
-[discussion on absolute URLs](https://montana-media-arts.github.io/341-web-design-Fall2020/topic-02/urls-absolute/)
+[discussion on absolute URLs](https://montana-media-arts.github.io/341-web-design-Spring2021/topic-02/urls-absolute/)
 ```
 
 

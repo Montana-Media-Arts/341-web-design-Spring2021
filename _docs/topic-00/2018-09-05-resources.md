@@ -25,7 +25,7 @@ Never _ever_ hesitate to be your own instructor. There are many resources and co
 Please feel free to send me a message <a href="mailto:michael.cassens@umontana.edu?subject=MART341">michael.cassens@umontana.edu</a> I will get back to you as soon as I can!
 
 ### 5. The BA Lab (McGill 127), When Available
-<span class="label label-info">Note</span> _The BA Lab is not open Fall 2020.  We are teaching in a remote-only capacity.  I will do my best to help you work through all your questions.
+<span class="label label-info">Note</span> _The BA Lab is not open Spring 2021.  We are teaching in a remote-only capacity.  I will do my best to help you work through all your questions.
 
 <!--
 Missoula-based students are welcome (and encouraged) to utilize the BA Lab located on the University of Montana main campus. Staffed by graduate candidates and open to all takers of this course, the BA Lab is a one-to-one hands-on resource where you can get help, feedback, or critique before turning assignments in.
