@@ -1,7 +1,7 @@
 ---
 title: HTML5 Draw Images
-module: topic-14
-permalink: /topic-14/html5-draw-images/
+module: topic-13
+permalink: /topic-13/html5-draw-images/
 categories: development
 tags:
 ---

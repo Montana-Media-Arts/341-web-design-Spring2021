@@ -1,7 +1,7 @@
 ---
 title: HTML Canvas
-module: topic-14
-permalink: /topic-14/html5-canvas/
+module: topic-13
+permalink: /topic-13/html5-canvas/
 categories: development
 tags:
 ---

@@ -846,28 +846,6 @@ topic-12:
 
 # TOPIC 13
 topic-13:
-  - title: “Responsiveness”
-    docs:
-    - overview
-
-  - title: Responsive Web Design
-    docs:
-    - rwd-intro
-    - rwd-viewport
-    - rwd-targets
-    - rwd-mobile-first
-    - todo-rwd
-
-  - title: Media Queries
-    docs:
-    - queries-intro
-    - queries-simple
-    - queries-breakpoints
-    - queries-complex
-    - todo-queries
-
-# TOPIC 14
-topic-14:
   - title: “CSS Frameworks and HTML5 Canvas”
     docs:
     - overview

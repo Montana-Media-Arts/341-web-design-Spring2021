@@ -1,7 +1,7 @@
 ---
 title: HTML5 Draw Shapes
-module: topic-14
-permalink: /topic-14/html-draw-shapes/
+module: topic-13
+permalink: /topic-13/html-draw-shapes/
 categories: development
 tags:
 ---

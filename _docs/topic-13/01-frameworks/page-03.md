@@ -1,7 +1,7 @@
 ---
 title: Bulma
-module: topic-14
-permalink: /topic-14/bulma/
+module: topic-13
+permalink: /topic-13/bulma/
 categories: development
 tags:
 ---

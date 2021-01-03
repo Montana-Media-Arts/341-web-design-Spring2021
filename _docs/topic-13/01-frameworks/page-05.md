@@ -1,7 +1,7 @@
 ---
 title: Semantic UI
-module: topic-14
-permalink: /topic-14/semantic-ui/
+module: topic-13
+permalink: /topic-13/semantic-ui/
 categories: development
 tags:
 ---

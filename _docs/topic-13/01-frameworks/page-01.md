@@ -1,7 +1,7 @@
 ---
 title: Bootstrap
-module: topic-14
-permalink: /topic-14/bootstrap/
+module: topic-13
+permalink: /topic-13/bootstrap/
 categories: development
 tags:
 ---
