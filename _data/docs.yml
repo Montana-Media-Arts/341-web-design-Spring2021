@@ -867,8 +867,8 @@ topic-13:
     - todo-queries
 
 # TOPIC 14
-topic-13:
-  - title: “CSS Frameworks”
+topic-14:
+  - title: “CSS Frameworks and HTML5 Canvas”
     docs:
     - overview
 
