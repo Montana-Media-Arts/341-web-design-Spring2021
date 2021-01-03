@@ -9,19 +9,31 @@ tags:
 <div class="divider-heading"></div>
 
 
-Let’s watch some videos to better understand what “the internet” is. Part of web development is understanding _how_ to get your website online, and to make sure it stays online. This means you need to have a basic understanding of what the internet actually _is,_ and how it works. Take a look!
+The thing that comes to mind when thinking of UIkit is minimalism. Minimalism not in features (in fact, it offers perhaps the most features of all frameworks), but in design. If super-clean, elegant, non-whitespace-shy designs are your thing, UIkit has you covered.
 
 
-## What is the Internet?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dxcc6ycZ73M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+For instance, take a look at the progress-bar component:
+
+uikit-progress
+
+ 
+
+Or the image marker component (a JS-driven interactive marker for images):
+
+uikit-marker
+
+Or even the humble HTML form:
+
+uikit-form
+
+If this doesn’t scream elegance at the top of its lungs, I don’t know what does. Just head over to the UIkit website and check out all the incredible components it has on offer. Unless your project manager or customer forces a particular style language on you, I think Uikit takes the crown for UI design and is several miles ahead of Google’s Material Design.
+
+But is there a catch, you’re wondering. Yes, there is. Like Bootstrap, UIkit works with its JavaScript and while you can use jQuery for DOM manipulation, using a virtual DOM framework like React is impossible.
+
+Also, Uikit is a self-contained system, and you won’t be able to modify or extend it without putting in considerable effort.
 
 
 <div class="divider-pg"></div>
 
 
-## Andrew Blum: What is the Internet, really?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+

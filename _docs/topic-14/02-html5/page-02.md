@@ -9,19 +9,19 @@ tags:
 <div class="divider-heading"></div>
 
 
-Let’s watch some videos to better understand what “the internet” is. Part of web development is understanding _how_ to get your website online, and to make sure it stays online. This means you need to have a basic understanding of what the internet actually _is,_ and how it works. Take a look!
+What is HTML Canvas?
+The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
 
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
 
-## What is the Internet?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dxcc6ycZ73M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
 
+Canvas Examples
+A canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content.
 
-<div class="divider-pg"></div>
+The markup looks like this:
 
+<canvas id="myCanvas" width="200" height="100"></canvas>
+Note: Always specify an id attribute (to be referred to in a script), and a width and height attribute to define the size of the canvas. To add a border, use the style attribute.
 
-## Andrew Blum: What is the Internet, really?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+Here is an example of a basic, empty canvas:

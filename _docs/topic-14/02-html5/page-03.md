@@ -9,19 +9,27 @@ tags:
 <div class="divider-heading"></div>
 
 
-Let’s watch some videos to better understand what “the internet” is. Part of web development is understanding _how_ to get your website online, and to make sure it stays online. This means you need to have a basic understanding of what the internet actually _is,_ and how it works. Take a look!
+Add a JavaScript
+After creating the rectangular canvas area, you must add a JavaScript to do the drawing.
 
+Here are some examples:
 
-## What is the Internet?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dxcc6ycZ73M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+Draw a Line
+Example
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+</script>
 
-
-<div class="divider-pg"></div>
-
-
-## Andrew Blum: What is the Internet, really?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+Draw a Circle
+Example
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>

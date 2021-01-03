@@ -9,19 +9,16 @@ tags:
 <div class="divider-heading"></div>
 
 
-Let’s watch some videos to better understand what “the internet” is. Part of web development is understanding _how_ to get your website online, and to make sure it stays online. This means you need to have a basic understanding of what the internet actually _is,_ and how it works. Take a look!
+Another contender in the race is Semantic UI, which tries to distinguish itself with a lot of themes and customization. There are more than 3000 theming variables, which results in a massive breadth. Or so the docs say.
 
 
-## What is the Internet?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dxcc6ycZ73M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
+
+
+Bootstrap 4 kind of covers all this and is fully customizable as well, but one advantage with Semantic UI is that it results in nice-looking layouts by default. Still, it’s not the best-looking out of the box, which is why I put it later down on my list.
+
+It also has one of the steepest learning curves, and coding conventions are much more strict. Try it; I’d say, and see if it looks like something you might prefer.
+
 
 
 <div class="divider-pg"></div>
 
-
-## Andrew Blum: What is the Internet, really?
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XE_FPEFpHt4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</div>
