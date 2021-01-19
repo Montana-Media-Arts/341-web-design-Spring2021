@@ -34,7 +34,7 @@ categories: uncategorized
   <div class="col-lg-4">
     <div class="bs-component">
       <div class="list-group">
-        <a href="https://atom.io/" target="_blank" class="list-group-item">
+        <a href="https://code.visualstudio.com/download" target="_blank" class="list-group-item">
           <img class="icon-hw" src="../img/vscode-logo.png" />
           <h4 class="list-group-item-heading">Install VS Code (option)</h4>
           <div class="divider-hw"></div>
