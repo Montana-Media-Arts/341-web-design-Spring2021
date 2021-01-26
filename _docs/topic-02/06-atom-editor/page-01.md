@@ -29,11 +29,12 @@ The following pages will guide you through the installation process. Please foll
 
 ### For Mac
 <iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=6" width="877" height="686" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=6" class="btn btn-default btn-xs" target="_blank">View Larger</a>
 
 
 ### For PC
 <iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=7" width="877" height="688" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-
+<a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=7" class="btn btn-default btn-xs" target="_blank">View Larger</a>
 
 <div class="divider-pg"></div>
 
