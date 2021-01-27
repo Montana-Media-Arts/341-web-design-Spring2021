@@ -20,7 +20,7 @@ categories: uncategorized
     </div>
   </div>  
 </div>
-<div class="row text-center">
+<!--<div class="row text-center">
  <div class="col-lg-12">
     <div class="bs-component">
       <div class="list-group">
@@ -31,4 +31,4 @@ categories: uncategorized
       </div>
     </div>
   </div>
-</div>
+</div>-->
