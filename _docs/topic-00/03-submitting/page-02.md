@@ -29,8 +29,8 @@ To begin, you need to register with <a href="https://github.com/" target="_blank
 
 Your username will be publicly available and used often for many things throughout this course (ie. homework) and your entire time on GitHub.
 
-<iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=10" width="877" height="745" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-<a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=10" class="btn btn-default btn-xs" target="_blank">View Larger</a>
+<iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=13" width="473" height="517" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=13" class="btn btn-default btn-xs" target="_blank">View Larger</a>
 
 
 <div class="divider-pg"></div>
