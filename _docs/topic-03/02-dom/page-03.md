@@ -56,18 +56,19 @@ An HTML document is composed of a tree of HTML elements. An **element** is an in
 ```html
 <p>This is a paragraph element.</p>
 <p>This is another paragraph element.</p>
-`"
+```
 
 Compare this to Markdown:
 
 <div class="code-heading">
   <span class="md">Markdown</span>
 </div>
+
 ```markdown
 This is a paragraph.
 
 This is another paragraph.
-`"
+```
 
 
 ### Tags
@@ -103,18 +104,20 @@ Most elements include an "opening" and "closing" tag that the processor uses to 
 <div class="code-heading">
   <span class="html">HTML</span>
 </div>
+
 ```html
 <p>This is a paragraph element.</p>
 <p>This element is created with an opening "<p>" tag and a closing "</p>" tag. We call this "wrapping."</p>
-`"
+```
 
 Compare this to Markdown:
 
 <div class="code-heading">
   <span class="md">Markdown</span>
 </div>
+
 ```markdown
 This is a paragraph.
 
 In markdown, paragraphs require no extra markup to signify it as such. An empty line between text blocks represents a new paragraph.
-`"
+```
