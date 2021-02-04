@@ -20,8 +20,8 @@ Yet another resource is **internet archives.** Internet Archives may not be the 
 ## The Wayback Machine
 <a href="https://archive.org/web/" target="_blank">The Wayback Machine</a> allows you to see what certain websites looked like at different points in history.
 
-<iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=20" width="877" height="761" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-<a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=20" class="btn btn-default btn-xs" target="_blank">View Larger</a>
+<iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=19" width="958" height="812" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=19" class="btn btn-default btn-xs" target="_blank">View Larger</a>
 
 
 <div class="divider-pg"></div>
