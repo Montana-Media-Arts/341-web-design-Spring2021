@@ -19,7 +19,7 @@ We have 3 options on how we can get fonts from Google Fonts:
 
 ## Browsing With Google Fonts
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jg33kxFKYVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jg33kxFKYVQ" frameborder="0" allowfullscreen></iframe></div>
 
 <!--
 <iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=29" width="877" height="519" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
