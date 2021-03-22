@@ -6,8 +6,9 @@ permalink: /topic-10/google-fonts-part-2/
 
 <div class="divider-heading"></div>
 
+<!--
 <span class="label label-warning">LOAD TIME:</span> This page contains embedded interactive content. In may take 3-10 seconds to completely load.
-
+-->
 <br />
 To work with this example, you will need to fill get the fonts and put them in the fonts folder, finish the fonts.css and link the stylesheets in your HTML page.
 <br />
