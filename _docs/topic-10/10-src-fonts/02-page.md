@@ -15,6 +15,8 @@ We have 3 options on how we can get fonts from Google Fonts:
 - Option B: By embedding and linking in HTML via the "Standard" method, good for single-page sites.
 - Option C: By embedding and linking in CSS via the "@import" method, good for multi-page sites.
 
+<!--
 ## Browsing With Google Fonts
 
 <iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=29" width="877" height="519" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+-->
