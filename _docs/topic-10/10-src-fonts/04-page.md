@@ -6,7 +6,9 @@ permalink: /topic-10/google-fonts-part-3/
 
 <div class="divider-heading"></div>
 
+<!--
 <span class="label label-warning">LOAD TIME:</span> This page contains embedded interactive content. In may take 3-10 seconds to completely load.
+-->
 
 <br />
 
@@ -31,6 +33,9 @@ After you have selected and customized a font as you did in Part 1, one option i
 
 ## Option B: Embedding Fonts Using Standard HTML
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iYU0A8_zKAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--
 <iframe src="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=30" width="877" height="454" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://umontanamediaarts.com/MART341/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 <a href="https://umontanamediaarts.com/MART341/wp-admin/admin-ajax.php?action=h5p_embed&id=30" target="_new">View Larger</a>
+-->
