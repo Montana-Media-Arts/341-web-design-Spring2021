@@ -15,7 +15,7 @@ In the HTML module you looked at <a href="../../topic-08/basic-nav-about/" targe
 This was helpful up to a point, but its very limiting on how we can style these links.By changing the **display** property of those links, we can change how each relates to each other as elements.
 
 
-Let's review:
+Let's review from earlier <a href="https://montana-media-arts.github.io/341-web-design-Spring2021/topic-11/display-example/" target="_new">Display Example</a>
 
 ## Display
 <div class="code-heading">
