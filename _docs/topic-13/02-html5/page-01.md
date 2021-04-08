@@ -11,18 +11,36 @@ tags:
 
 HTML5 is the latest evolution of the standard that defines HTML. The term represents two different concepts. It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows the building of more diverse and powerful Web sites and applications. This set is sometimes called HTML5 & friends and often shortened to just HTML5.
 
-Designed to be usable by all Open Web developers, this reference page links to numerous resources about HTML5 technologies, classified into several groups based on their function.
+**HTML5 Reference Guide**
 
-Semantics: allowing you to describe more precisely what your content is.
+<a href="https://www.tutorialspoint.com/html5/html5_quick_guide.htm" target="_new">Quick-reference HTML5</a> sheet containing markup generators, code examples and web developer tools. The guide is downloadable for ease of use and access. This page was created with help from the W3C as a quick guide for those who have some basic familiarity and experience using HTML5.
+
+**Downloadable HTML5 Guide**
+
+A quick guide to HTML5, including the common HTML tags as well as the new HTML5 tags. <a href="https://www.doc-developpement-durable.org/file/Projets-informatiques/cours-&-manuels-informatiques/htm-html-xml-ccs/HTML5%20Pocket%20Reference,%205th%20Edition.pdf" target="_new">Downloadable in PDF</a>.
+
+**HTML5 Cheat Sheet**
+
+A handy <a href="https://tuftsdev.github.io/WebProgramming/notes/html5-cheat-sheet.pdf" target="_new">HTML 5 cheat sheet</a> for beginners who want to master HTML 5, its elements, event attributes and compatibility.
+
+
+**Semantics:** allowing you to describe more precisely what your content is.
 Connectivity: allowing you to communicate with the server in new and innovative ways.
-Offline and storage: allowing webpages to store data on the client-side locally and operate offline more efficiently.
-Multimedia: making video and audio first-class citizens in the Open Web.
+
+**Offline and storage:** allowing webpages to store data on the client-side locally and operate offline more efficiently.
+
+**Multimedia:** making video and audio first-class citizens in the Open Web.
 2D/3D graphics and effects: allowing a much more diverse range of presentation options.
-Performance and integration: providing greater speed optimization and better usage of computer hardware.
-Device access: allowing for the usage of various input and output devices.
+
+**Performance and integration:** providing greater speed optimization and better usage of computer hardware.
+
+**Device access:** allowing for the usage of various input and output devices.
 Styling: letting authors write more sophisticated themes.
-Semantics
+
+**Semantics**
+
 Sections and outlines in HTML5
+
 A look at the new outlining and sectioning elements in HTML5: 
 
 ```html
@@ -39,10 +57,6 @@ A look at the new outlining and sectioning elements in HTML5:
 <aside>
 ```
 
-**Using HTML5 audio and video**
-
-The `<audio>` and `<video>` elements embed and allow the manipulation of new multimedia content.
-
 **Forms improvements**
 
 A look at the constraint validation API, several new attributes, new values for the `<input>` attribute type and the new `<output>` element.
@@ -56,26 +70,6 @@ Using the sandbox and srcdoc attributes, authors can now be precise about the le
 **MathML**
 
 Allows directly embedding mathematical formulas.
-
-**Introduction to HTML5**
-
-This article introduces how to indicate to the browser that you are using HTML5 in your web design or web application.
-
-**HTML5 Reference Guide**
-
-Quick-reference HTML5 sheet containing markup generators, code examples and web developer tools. The guide is downloadable for ease of use and access. This page was created with help from the W3C as a quick guide for those who have some basic familiarity and experience using HTML5.
-
-**Downloadable HTML5 Guide**
-
-A quick guide to HTML5, including the common HTML tags as well as the new HTML5 tags. Downloadable in PDF and PNG formats.
-
-**HTML5 Cheat Sheet**
-
-A handy HTML 5 cheat sheet for beginners who want to master HTML 5, its elements, event attributes and compatibility.
-
-**Editable HTML5 Cheat Sheet**
-
-A beginner-friendly and editable cheat sheet with HTML5 examples that is aimed at anyone wanting to learn and use HTML5.
 
 **HTML5-compliant parser**
 
@@ -180,7 +174,7 @@ Fullscreen API
 
 Controls the usage of the whole screen for a Web page or application, without the browser UI displayed.
 
-P**ointer Lock API**
+**Pointer Lock API**
 
 Allows locking the pointer to the content, so games and similar applications don't lose focus when the pointer reaches the window limit.
 
@@ -206,15 +200,11 @@ Let browsers locate the position of the user using geolocation.
 
 Get the information when the device on which the browser runs changes orientation. This can be used as an input device (e.g., to make games that react to the position of the device) or to adapt the layout of a page to the orientation of the screen (portrait or landscape).
 
-**Pointer Lock API**
-
-Allows locking the pointer to the content, so games and similar application don't lose focus when the pointer reaches the window limit.
-
 **Styling**
 
 CSS has been extended to be able to style elements in a much more complex way. This is often referred as CSS3, though CSS is not a monolithic specification any more and the different modules are not all at level 3: some are at level 1 and others at level 4, with all the intermediate levels covered.
 
-N**ew background styling features**
+**New background styling features**
 
 It is now possible to put shadows on elements using box-shadow, multiple backgrounds, and CSS filters. You can learn more about these by reading Advanced box effects.
 

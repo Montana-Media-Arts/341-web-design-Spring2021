@@ -11,7 +11,7 @@ tags:
 
 **What is HTML Canvas?**
 
-With all those features, we are going to focus on the canvas primarily.
+With all those features, the most exciting is the canvas.  It removed the necessity of having Flash and removes the security vulnerabilities of the past.
 
 The HTML `<canvas>` element is used to draw graphics, on the fly, via JavaScript.
 
