@@ -9,11 +9,13 @@ tags:
 <div class="divider-heading"></div>
 
 
-<img src="../img/bootstrap.png">An initiative by Twitter, Bootstrap takes credit for introducing responsive design on a large scale. It was the first framework to promote the philosophy of “mobile-first.” No longer was designing for smaller screen sizes a separate project in itself; all you needed to do was include the relevant Bootstrap classes, and the design would automatically adjust for different screen sizes (well, almost).
+<img src="../img/bootstrap.png">An initiative by Twitter, Bootstrap takes credit for introducing responsive design on a large scale. It was the first framework to promote the philosophy of "mobile-first." No longer was designing for smaller screen sizes a separate project in itself; all you needed to do was include the relevant Bootstrap classes, and the design would automatically adjust for different screen sizes (well, almost).
 
 Responsive design in Bootstrap (4.0 vs. 3.0)
-Bootstrap achieved responsive design by introducing the idea of a grid. A grid is an invisible partition of the screen into columns (along with the width). For example, if you have three “boxes” you want to position side by side on large screens, but vertically on smaller screens, this is what you’d do:
 
+Bootstrap achieved responsive design by introducing the idea of a grid. A grid is an invisible partition of the screen into columns (along with the width). For example, if you have three "boxes" you want to position side by side on large screens, but vertically on smaller screens, this is what you’d do:
+
+```html
  <div class="container">
   <div class="row">
     <div class="col-md">
@@ -29,6 +31,8 @@ Bootstrap achieved responsive design by introducing the idea of a grid. A grid i
     </div>
   </div>
 </div>
+```
+
 The current popular version of Bootstrap is 4, which was a major overhaul over the 3.3 series. The above syntax is how you’d code in Bootstrap 4, which owes a lot of its elegance to the raw power of Flexbox and other modern layout features supported by browsers directly. In the lower versions of Bootstrap, the grid was defined as a total of 12 columns, which resulted in code such as
 
 <div class="col-md-6 col-lg-4"></div>
