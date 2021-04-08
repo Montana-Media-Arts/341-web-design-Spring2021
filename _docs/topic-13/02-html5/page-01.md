@@ -23,10 +23,23 @@ Device access: allowing for the usage of various input and output devices.
 Styling: letting authors write more sophisticated themes.
 Semantics
 Sections and outlines in HTML5
-A look at the new outlining and sectioning elements in HTML5: <section>, <article>, <nav>, <header>, <footer> and <aside>.
-Using HTML5 audio and video
-The <audio> and <video> elements embed and allow the manipulation of new multimedia content.
-Forms improvements
+A look at the new outlining and sectioning elements in HTML5: 
+
+```html
+<section>
+<article>
+<nav>
+<header>
+<footer>
+<aside>
+```
+
+**Using HTML5 audio and video**
+
+The `<audio>` and `<video>` elements embed and allow the manipulation of new multimedia content.
+
+**Forms improvements**
+
 A look at the constraint validation API, several new attributes, new values for the <input> attribute type and the new <output> element.
 New semantic elements
 Beside sections, media and forms elements, there are numerous new elements, like <mark>, <figure>, <figcaption>, <data>, <time>, <output>, <progress>, or <meter> and <main>, increasing the number of valid HTML5 elements.
