@@ -8,20 +8,23 @@ tags:
 
 <div class="divider-heading"></div>
 
+Continuing on this path of making objects appear on the canvas, we can also add text.
 
-Draw a Text
-Example
-<script>
+**Draw a Text**
+
+```js
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.fillText("Hello World", 10, 50);
-</script>
-Stroke Text
-Example
-<script>
+```
+
+
+**Stroke Text**
+
+```js
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.strokeText("Hello World", 10, 50);
-</script>
+```
