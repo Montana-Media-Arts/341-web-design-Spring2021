@@ -12,10 +12,6 @@ tags:
 
 If technologies were religions, the Foundation and Bootstrap guys would be out for each other’s blood. No discussion of modern CSS frameworks is complete without mentioning Foundation, so here we go.
 
-```html
-<div class="divider-pg"></div>
-```
-
 Head over to the <a href="https://get.foundation/" target="_new">Foundation website</a>, and you can’t help but notice the byline: "The most advanced responsive front-end framework in the world." At first glance, it looks like a tall claim to go with a marketing campaign.
 
 However, adherents of the Foundation framework know there’s at least some truth to that. Foundation was developed to go naturally with the Rails framework, and several of the Rails’ “zen-like” guiding principles can be seen at work.
@@ -60,3 +56,7 @@ The strengths of one framework become its weaknesses when viewed from the opposi
 **Too many options:** Sometimes you just want to be productive and worry about perfection later. During such times, it's frustrating to be presented with too many options with minor variations. For example, think of having to order a Subway sandwich when you're so hungry painstakingly you could eat mud. Naturally, Foundation isn't for times like that.
 
 **Talent availability:** Since Foundation is (much) less popular than Bootstrap, the available talent is much less. As a general rule, any new hire is almost likely to know Bootstrap but won't have a clue about Foundation. Learning takes time, and it's a luxury not all teams can have.
+
+<a href="https://geekflare.com/best-css-frameworks/" target="_new"><em>Reference</em></a>
+
+<div class="divider-pg"></div>

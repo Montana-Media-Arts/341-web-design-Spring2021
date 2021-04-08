@@ -8,7 +8,6 @@ tags:
 
 <div class="divider-heading"></div>
 
-
 <img src="../img/bootstrap.png">An initiative by Twitter, <a href="https://getbootstrap.com/" target="_new">Bootstrap</a> takes credit for introducing responsive design on a large scale. It was the first framework to promote the philosophy of "mobile-first." No longer was designing for smaller screen sizes a separate project in itself; all you needed to do was include the relevant Bootstrap classes, and the design would automatically adjust for different screen sizes (well, almost).
 
 Responsive design in Bootstrap (4.0 vs. 3.0)
@@ -59,3 +58,6 @@ Nothing is without a price, eh? Well, Bootstrap is no exception. Over time, Boot
 **UX monotony:** The very fact that Bootstrap has such a large collection of built-ins results in websites that look all-too-familiar, and quite honestly, dull. You only need to head over to the official examples to see just how much of an eyesore the defaults are.  Just search for "all bootstrap websites look the same," and you'll know what I mean.
 
 **Styling woes:** Bootstrap is what might be considered an opinionated framework. In other words, it has ideas about layouts, and it makes you work extra hard if you want it to look/behave differently. Consider the default CSS breakpoints for screen widths: a medium-sized screen for Bootstrap is one that starts at a device width of 768px. And what if you want to target, say, the limit of 600px? Well, good luck with that! It’s the same with almost every other component in bootstrap: rows and containers have their default padding, buttons have colors and borders that are very tricky to override without a lot of work, and so on.
+
+<a href="https://geekflare.com/best-css-frameworks/" target="_new"><em>Reference</em></a>
+<div class="divider-pg"></div>
