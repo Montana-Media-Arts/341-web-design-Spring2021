@@ -9,7 +9,7 @@ tags:
 <div class="divider-heading"></div>
 
 
-An initiative by Twitter, Bootstrap takes credit for introducing responsive design on a large scale. It was the first framework to promote the philosophy of “mobile-first.” No longer was designing for smaller screen sizes a separate project in itself; all you needed to do was include the relevant Bootstrap classes, and the design would automatically adjust for different screen sizes (well, almost).
+<img src="../img/bootstrap.png">An initiative by Twitter, Bootstrap takes credit for introducing responsive design on a large scale. It was the first framework to promote the philosophy of “mobile-first.” No longer was designing for smaller screen sizes a separate project in itself; all you needed to do was include the relevant Bootstrap classes, and the design would automatically adjust for different screen sizes (well, almost).
 
 Responsive design in Bootstrap (4.0 vs. 3.0)
 Bootstrap achieved responsive design by introducing the idea of a grid. A grid is an invisible partition of the screen into columns (along with the width). For example, if you have three “boxes” you want to position side by side on large screens, but vertically on smaller screens, this is what you’d do:
