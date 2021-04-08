@@ -37,7 +37,7 @@ Connectivity: allowing you to communicate with the server in new and innovative 
 **Device access:** allowing for the usage of various input and output devices.
 Styling: letting authors write more sophisticated themes.
 
-**Semantics**
+### Semantics
 
 Sections and outlines in HTML5
 
@@ -57,7 +57,7 @@ A look at the new outlining and sectioning elements in HTML5:
 <aside>
 ```
 
-**Forms improvements**
+### Forms improvements
 
 A look at the constraint validation API, several new attributes, new values for the `<input>` attribute type and the new `<output>` element.
 New semantic elements
@@ -75,7 +75,7 @@ Allows directly embedding mathematical formulas.
 
 The parser, which turns the bytes of an HTML document into a DOM, has been extended and now precisely defines the behavior to use in all cases, even when faced with invalid HTML. This leads to far greater predictability and interoperability between HTML5-compliant browsers.
 
-**Connectivity**
+### Connectivity
 
 **Web Sockets**
 
@@ -85,11 +85,11 @@ Allows creating a permanent connection between the page and the server and to ex
 
 Allows a server to push events to a client, rather than the classical paradigm where the server could send data only in response to a client's request.
 
-**WebRTC**
+### WebRTC
 
 This technology, where RTC stands for Real-Time Communication, allows connecting to other people and controlling videoconferencing directly in the browser, without the need for a plugin or an external application.
 
-**Offline & storage**
+### Offline & storage
 
 **Offline resources: The application cache**
 
@@ -109,7 +109,7 @@ IndexedDB is a web standard for the storage of significant amounts of structured
 
 Support for the new HTML5 File API has been added to Gecko, making it possible for web applications to access local files selected by the user. This includes support for selecting multiple files using the `<input>` of type file HTML element's new multiple attribute. There also is FileReader.
 
-**Multimedia**
+### Multimedia
 
 **Using HTML5 audio and video**
 
@@ -127,7 +127,7 @@ The `<track>` element allows subtitles and chapters. WebVTT is a text track form
 
 The HTML5 text API is now supported by `<canvas>` elements.
 
-**WebGL**
+### WebGL
 
 WebGL brings 3D graphics to the Web by introducing an API that closely conforms to OpenGL ES 2.0 that can be used in HTML5 `<canvas>` elements.
 
@@ -135,7 +135,7 @@ WebGL brings 3D graphics to the Web by introducing an API that closely conforms 
 
 An XML-based format of vectorial images that can directly be embedded in the HTML.
 
-**Performance and Integration**
+### Performance and Integration
 
 **Web Workers**
 
@@ -178,11 +178,7 @@ Controls the usage of the whole screen for a Web page or application, without th
 
 Allows locking the pointer to the content, so games and similar applications don't lose focus when the pointer reaches the window limit.
 
-**Online and offline events**
-
-In order to build a good offline-capable web application, you need to know when your application is actually offline. Incidentally, you also need to know when your application has returned to an online status again.
-
-**Device access**
+### Device access
 
 **Using the Camera API**
 
@@ -200,7 +196,7 @@ Let browsers locate the position of the user using geolocation.
 
 Get the information when the device on which the browser runs changes orientation. This can be used as an input device (e.g., to make games that react to the position of the device) or to adapt the layout of a page to the orientation of the screen (portrait or landscape).
 
-**Styling**
+### Styling
 
 CSS has been extended to be able to style elements in a much more complex way. This is often referred as CSS3, though CSS is not a monolithic specification any more and the different modules are not all at level 3: some are at level 1 and others at level 4, with all the intermediate levels covered.
 
